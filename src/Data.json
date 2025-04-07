@@ -1,0 +1,80 @@
+ [
+
+
+    {
+    "id": 1,
+    "title": "Dunkin' Donuts Decaf Keurig®",
+    "price": 0.1,
+    "description": "Enjoy the smooth, comforting taste of Dunkin' Donuts Decaf Coffee—perfect for any time of day without the caffeine kick. Whether you're savoring an afternoon cup at work or unwinding with a book, this decaffeinated version of Dunkin’s original blend delivers the same rich flavor you love. Each K-Cup Pod is designed for single-cup brewing systems, offering a mess-free, perfectly brewed cup every time. Made with 100% Arabica beans for a bold, satisfying taste, this 16-count box ensures you can enjoy your favorite coffee, anytime—minus the caffeine.",
+    "rating":"320",
+    "category": "Grocery",
+    "img1": "https://i.ibb.co.com/NdcVpFsp/Dunkin-Donuts.jpg",
+    "img2":"https://i.ibb.co.com/5h0hf7T9/Dunkin-Donuts.jpg"
+   
+    },
+    
+    {
+    "id": 2,
+    "title": "Maxwell House Breakfast Blend – Ground Coffee",
+    "price": 0.1,
+    "description": "Maxwell House Breakfast Blend Ground Coffee delivers a consistently smooth, rich flavor that’s always good to the last drop. Made with 100% pure coffee, this medium roast offers a perfectly balanced taste and inviting aroma—ideal for starting your day right. Enjoy it black or customize it with cream and sugar. Designed for use in any drip coffee maker, this Kosher coffee comes in a 30.6-ounce resealable canister to keep its fresh flavor intact. For over 125 years, Maxwell House has crafted coffee the right way, ensuring every cup is as satisfying as the last.",
+    "rating":"230",
+    "category": "Grocery",
+    "img1": "https://i.ibb.co.com/TDPZGLN6/Maxwell-House.jpg",
+    "img2":"https://i.ibb.co.com/8nKt0VNR/Maxwell-House.jpg"
+    },
+
+    {
+    "id": 3,
+    "title": "Mott's Inc Clamato Picante, 32 oz ",
+    "price": 0.1,
+    "description": "Add bold flavor to your favorite drinks and dishes with Clamato Picante! This invigorating blend of rich tomato juice and bold spices delivers the perfect kick. Packaged in a convenient 32-ounce bottle, it’s great on its own as a refreshing alternative to juice or as a flavorful mixer for cocktails like the classic Michelada or Bloody Caesar. Take it beyond the glass—its zesty heat enhances seafood, meats, chicken, and even homemade salsa for tacos. Whether you're mixing drinks or elevating your meals, Clamato Picante is the versatile essential that keeps every occasion flavorful and exciting!",
+    "category": "Grocery",
+    "rating":"117",
+    "img1": "https://i.ibb.co.com/0jKMTVfR/Mott-s-Inc-Clamato.jpg",
+    "img2":"https://i.ibb.co.com/sp5cxths/Mott-s-Inc-Clamato.jpg"
+    },
+  {
+    "id": 4,
+    "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 20 oz, Tan/White (Vanilla Bean)",
+    "price": 0.1,
+    "description": "Enjoy your drinks at the perfect temperature with this 20-ounce insulated stainless-steel tumbler. Designed with a completely leak-proof lid, it features a SmoothSip Slider spout that provides an ultra-comfortable sip every time. The slide-top spout design ensures no splashes or spills, making it ideal for on-the-go use. Thanks to double-wall insulation, your beverages stay hot for up to 6 hours and cold for up to 24 hours. BPA and phthalate-free, this tumbler is easy to clean with a dishwasher-safe lid and hand wash recommended for the cup. Plus, it comes with a manufacturer’s limited lifetime warranty for peace of mind.",
+    "category": "Home Kitchen",
+    "rating":"118",
+    "img1": "https://i.ibb.co.com/x8gWfHr6/Owala-Smooth-Sip-Slider-Insulated-Stainless-Steel-Coffee-Tumbler.jpg",
+    "img2":"https://i.ibb.co.com/ynVY4hdt/Owala-Smooth-Sip-Slider-Insulated-Stainless-Steel-Coffee-Tumbler.jpg"
+    },
+    {
+    "id": 5,
+    "title": "2.Stanley Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel | Insulated Stainless Steel Cup | BPA-Free | Fuchsia",
+    "price": 0.1,
+    "description": "The H2.0 FlowState tumbler keeps drinks cold or hot for hours with double-wall insulation and is available in sizes from 14oz to 64oz. Its advanced lid features three positions for easy sipping and leak resistance, while the ergonomic handle makes it portable. Made from 90% recycled, BPA-free stainless steel, it's durable and eco-friendly. Dishwasher safe for easy cleaning, it’s backed by Stanley’s lifetime warranty, ensuring lasting quality since 1913.",
+    "category": "Home Kitchen",
+    "img1": "https://i.ibb.co.com/pBFTVJKq/Stanley-Quencher-H2-0-Tumbler.jpg",
+    "img2":"https://i.ibb.co.com/HDtHbQjm/Stanley-Quencher-H2-0-Tumbler.jpg"
+    },
+   {
+    "id": 6,
+    "title": "The Clean People Dishwasher Pods - Cuts Grease & Rinses Sparkling Clean - Residue-Free - Phosphate Free Dishwashing Pods - Lemon, 60 Pack",
+    "price": 0.1,
+    "description": "Clean People's Dishwasher Detergent Pods use enzyme power to clean dishes without harsh chemicals, leaving them spotless with no residue. One pod cleans a full load and is safe for all dishwashers. Free from phosphates, parabens, and artificial dyes, the formula is effective on all stains, including food, coffee, and wine, while being fragrance-free. Each 60-count bag is eco-friendly and cruelty-free, offering powerful yet gentle cleaning for your home and the environment.",
+    "category": "Household",
+    "img1": "https://i.ibb.co.com/VfvNsJx/The-Clean-People-Dishwasher-Pods.jpg",
+    "img2":"https://i.ibb.co.com/6JySdHZr/Clean-People-Dishwasher-Pods.jpg"
+    },
+    {
+    "id": 7,
+    "title": "Lemi Shine - Shine + Dry Natural Dishwasher Rinse Aid, Hard Water Stain Remover (1 Pack - 25.35 oz)",
+    "price": 0.1,
+    "description": "Lemi Shine Natural Rinse Aid removes hard water deposits like iron, calcium, and rust for streak-free, sparkling dishes. Powered by natural citric acid, it works with all water types and eliminates hard water spots. The concentrated formula saves energy and money by eliminating the need for the heated dry cycle. Biodegradable, phosphate-free, and septic-safe, Lemi Shine is US EPA Safer Choice certified for a safer clean.",
+    "category": "Household",
+    "img1": "https://i.ibb.co.com/7xd1X3x2/Lemi-Shine.jpg",
+    "img2":"https://i.ibb.co.com/8grF7rQG/Lemi-Shine.jpg"
+    }
+
+
+
+
+    ]
+
+ 

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+#navStyle{
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#navStyle:hover{
+    color: #f97316;
+    transition: 0.2s linear;
+}
+
+
+.cardBorder{
+    position: relative;
+    border-radius: 21px;
+    background-color: white;
+ }
+ .cardBorder:hover{
+    background: #F8991B;
+    color: white;
+ }
+ .cardBorder::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 21px;
+    background: linear-gradient(to bottom, #FFD33F, #F45D02);
+    z-index: -1;
+    margin: -2px;
+ }
+
+ 
+ 
+  .productCard:hover a{
+    background: #F8991B;
+  }
+ 
+
+
+ 
