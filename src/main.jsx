@@ -8,7 +8,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
  
-// import Home from './pages/Home.jsx';
 import Postcard from './pages/Postcard.jsx';
 import Singlepage from './pages/Singlepage.jsx';
 import Category from './pages/Category.jsx';
@@ -21,6 +20,7 @@ import Landingpage from './pages/Landingpage';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Testimonial from './component/Testimonial';
+import About from './pages/About';
 
 
 const router = createBrowserRouter([
@@ -41,11 +41,15 @@ const router = createBrowserRouter([
         path:"/home",
         element:<Home/>
       },
-
       {
         path:"/contact",
         element:<Contact/>
       },
+      {
+        path:"/about",
+        element:<About/>
+      },
+
       {
         path:"/postcard",
         element:<Postcard/>
@@ -80,8 +84,6 @@ const router = createBrowserRouter([
     path:"/dashbord",
     element:<Dashbord/>
   }
-
-
 ]);
 
 

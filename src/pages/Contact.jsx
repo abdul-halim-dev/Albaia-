@@ -1,11 +1,17 @@
-import { useFormik } from "formik"
- 
+import { useFormik } from "formik";
+import { useEffect } from "react";
+import toast from "react-hot-toast";
+import { useLocation } from "react-router-dom";
 import * as yup from 'yup';
-
- 
 
 
 const Contact = () => {
+
+    const {pathname}= useLocation();
+    
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[pathname])
 
     const formik = useFormik({
         validationSchema:yup.object({
@@ -19,19 +25,19 @@ const Contact = () => {
         }
         ,
         onSubmit: (values, { resetForm }) => {
-            console.log(values);
             resetForm({ values: "" })
+            toast.success('Successfully Submitted ')
         }
 
     })
 
     const inputDiv = `w-full flex items-start justify-center gap-2 flex-col ` ;
     const inputLabel = `text-sm  text-secondary  `;
-    const inputStyle = ` w-full  border-2 focus:outline outline-secondary py-[3px] text-secondary  border-active pl-2 rounded-md focus:border-0`;
+    const inputStyle = ` w-full border-2 focus:outline outline-secondary py-[3px] text-secondary border-active pl-2 rounded-md focus:border-0`;
 
     return (
-       <div className="w-full h-[80vh] bg-[#eeeeee]  p-5 flex items-center justify-center ">
-         <div className=" w-[65%] flex items-start justify-center  ">
+       <div className="w-full h-auto sm:h-[80vh] bg-[#eeeeee] px-5 sm:py-5 py-[100px] flex items-center justify-center ">
+         <div className=" w-full sm:w-[65%] flex items-start justify-center  ">
 
 
 <form className=" w-full flex items-start justify-center gap-2 flex-col  " onSubmit={formik.handleSubmit}>
@@ -61,14 +67,12 @@ const Contact = () => {
     <div className="w-full flex items-center justify-end flex-col ">
     <div className={inputDiv}>
         <label className={inputLabel} htmlFor="comment"> Comment: </label>
-
         <textarea className={`${inputStyle} h-[100px]`} required  id="comment" placeholder="comment" >  </textarea>
-         
     </div>
     </div>
 
-    <div className="w-full flex items-center justify-center gap-2 flex-col" >
-        <button className=" py-1 px-10 bg-active hover:bg-secondary hover:text-primary  duration-300 shadow   text-white rounded-full text-lg  font-semibold  " type="submit"> Submit </button>
+    <div className=" pt-[20px] flex items-center justify-center w-full" >
+        <button className=" py-1 px-[100px] bg-active hover:bg-secondary hover:text-primary  duration-300 shadow   text-white rounded-full text-lg  font-semibold  " type="submit"> Submit </button>
     </div>
 
 </form>

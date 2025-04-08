@@ -2,6 +2,7 @@
 import Layout from "./component/Layout"
 import './App.css'
 import ScrollToTop from "react-scroll-to-top"
+import { Toaster } from "react-hot-toast"
  
 
  
@@ -9,8 +10,9 @@ import ScrollToTop from "react-scroll-to-top"
   const App = () => {
     return (
       <div style={{ marginTop: "0px" }}>
-      <Layout/>
-      <ScrollToTop smooth className="!bg-active !text-primary"/>
+        <Toaster/>
+        <Layout/>
+        <ScrollToTop smooth className="!bg-active !text-primary !shadow"/>
       </div>
     )
   }

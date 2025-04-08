@@ -16,16 +16,17 @@ body{
     transition: 0.2s linear;
 }
 
-
 .cardBorder{
     position: relative;
     border-radius: 21px;
     background-color: white;
  }
+
  .cardBorder:hover{
     background: #F8991B;
     color: white;
  }
+
  .cardBorder::after{
     content: "";
     position: absolute;
@@ -38,13 +39,8 @@ body{
     z-index: -1;
     margin: -2px;
  }
-
- 
  
   .productCard:hover a{
     background: #F8991B;
   }
- 
-
-
  

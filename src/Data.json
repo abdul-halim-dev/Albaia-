@@ -32,7 +32,8 @@
     "category": "Grocery",
     "rating":"117",
     "img1": "https://i.ibb.co.com/0jKMTVfR/Mott-s-Inc-Clamato.jpg",
-    "img2":"https://i.ibb.co.com/sp5cxths/Mott-s-Inc-Clamato.jpg"
+    "img2":"https://i.ibb.co.com/sp5cxths/Mott-s-Inc-Clamato.jpg",
+    "sell":"Top Sell"
     },
   {
     "id": 4,
@@ -43,7 +44,7 @@
     "rating":"118",
     "img1": "https://i.ibb.co.com/x8gWfHr6/Owala-Smooth-Sip-Slider-Insulated-Stainless-Steel-Coffee-Tumbler.jpg",
     "img2":"https://i.ibb.co.com/ynVY4hdt/Owala-Smooth-Sip-Slider-Insulated-Stainless-Steel-Coffee-Tumbler.jpg"
-    },
+  },
     {
     "id": 5,
     "title": "2.Stanley Quencher H2.0 Tumbler with Handle and Straw 30 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel | Insulated Stainless Steel Cup | BPA-Free | Fuchsia",
@@ -51,7 +52,8 @@
     "description": "The H2.0 FlowState tumbler keeps drinks cold or hot for hours with double-wall insulation and is available in sizes from 14oz to 64oz. Its advanced lid features three positions for easy sipping and leak resistance, while the ergonomic handle makes it portable. Made from 90% recycled, BPA-free stainless steel, it's durable and eco-friendly. Dishwasher safe for easy cleaning, it’s backed by Stanley’s lifetime warranty, ensuring lasting quality since 1913.",
     "category": "Home Kitchen",
     "img1": "https://i.ibb.co.com/pBFTVJKq/Stanley-Quencher-H2-0-Tumbler.jpg",
-    "img2":"https://i.ibb.co.com/HDtHbQjm/Stanley-Quencher-H2-0-Tumbler.jpg"
+    "img2":"https://i.ibb.co.com/HDtHbQjm/Stanley-Quencher-H2-0-Tumbler.jpg",
+     "sell":"Best Sell"
     },
    {
     "id": 6,
@@ -69,7 +71,8 @@
     "description": "Lemi Shine Natural Rinse Aid removes hard water deposits like iron, calcium, and rust for streak-free, sparkling dishes. Powered by natural citric acid, it works with all water types and eliminates hard water spots. The concentrated formula saves energy and money by eliminating the need for the heated dry cycle. Biodegradable, phosphate-free, and septic-safe, Lemi Shine is US EPA Safer Choice certified for a safer clean.",
     "category": "Household",
     "img1": "https://i.ibb.co.com/7xd1X3x2/Lemi-Shine.jpg",
-    "img2":"https://i.ibb.co.com/8grF7rQG/Lemi-Shine.jpg"
+    "img2":"https://i.ibb.co.com/8grF7rQG/Lemi-Shine.jpg",
+     "sell":"Hot Sell"
     }
 
 

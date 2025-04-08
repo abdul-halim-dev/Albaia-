@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
@@ -7,6 +7,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import { useLocation } from "react-router-dom";
  
 const testimonials = [
   {
@@ -46,11 +47,85 @@ const testimonials = [
     image: "https://i.ibb.co.com/TByhKXqr/fatima.png"
   }
 ];
+
      const Testimonial = () => {
+       const {pathname}= useLocation();
+        
+        useEffect(()=>{
+            window.scrollTo(0,0)
+        },[pathname])
+
+      const [isLoading, setisLoading] = useState(true)
+        useEffect(()=>{
+          setTimeout(() => {
+            setisLoading(false)
+          }, 2000);
+        })
   return (
-    <div id="testimonial" className=" w-full flex flex-col gap-[20px] sm:gap-[25px] px-[35px] sm:px-[50px] py-[35px] sm:py-[50px] rounded-lg text-center ">
-      <h2 className="w-[90%] text-[20px] sm:text-[30px] text-center font-semibold uppercase underline underline-offset-[10px]">What Our Customers Say</h2>
+    <div id="testimonial" className=" w-full flex flex-col gap-[20px] sm:gap-[50px] px-[40px] sm:px-[60px] pt-0 sm:pt-5 py-[35px] sm:py-[50px] rounded-lg text-center ">
+  {
+    isLoading ?  <div className="w-full flex items-center justify-center ">
+    <div className='w-[60%] h-[30px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+    </div> :       <h2 className="w-[90%] text-[20px] sm:text-[30px] text-center font-semibold uppercase underline underline-offset-[10px]">What Our Customers Say</h2>
+
+  }      
+
       
+      {
+          isLoading ? 
+          <div className='w-full flex items-center py-[35px] sm:py-[40px] justify-center flex-wrap gap-[20px] sm:gap-[30px]'>
+ 
+          <div className='w-full flex flex-col gap-[35px] md:w-[48%] lg:w-[31%] h-[340px] p-4 rounded-[10px] border-[2px] animate-pulse border-[#605d5d]/80 '>
+             <div className='w-full flex items-center justify-center'> 
+                <div className="w-16 h-16 rounded-full bg-[#605d5d]/80 animate-pulse "> </div>
+             </div>
+              <div className="w-full flex items-center justify-center ">
+              <div className='w-[60%] h-[30px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+              </div>
+             <div className='flex flex-col gap-3 '>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             </div>
+           </div>
+           
+          <div className='w-full flex flex-col gap-[35px] md:w-[48%] lg:w-[31%] h-[340px] p-4 rounded-[10px] border-[2px] animate-pulse border-[#605d5d]/80 '>
+             <div className='w-full flex items-center justify-center'> 
+                <div className="w-16 h-16 rounded-full bg-[#605d5d]/80 animate-pulse "> </div>
+             </div>
+              <div className="w-full flex items-center justify-center ">
+              <div className='w-[60%] h-[30px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+              </div>
+             <div className='flex flex-col gap-3 '>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             </div>
+           </div>
+           
+          <div className='w-full flex flex-col gap-[35px] md:w-[48%] lg:w-[31%] h-[340px] p-4 rounded-[10px] border-[2px] animate-pulse border-[#605d5d]/80 '>
+             <div className='w-full flex items-center justify-center'> 
+                <div className="w-16 h-16 rounded-full bg-[#605d5d]/80 animate-pulse "> </div>
+             </div>
+              <div className="w-full flex items-center justify-center ">
+              <div className='w-[60%] h-[30px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+              </div>
+             <div className='flex flex-col gap-3 '>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             <div className='w-full h-[15px] bg-[#605d5d]/80 rounded-md animate-pulse'></div>
+             </div>
+           </div>
+           
+          
+          
+          </div> :
       <Carousel
       opts={{
         align: "center",
@@ -60,7 +135,7 @@ const testimonials = [
     >
       <CarouselContent>
         {testimonials.map((testimonial, index) => (
-          <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3 ">
             <div className="p-1">
             <Card key={testimonial.id} className="p-4 h-[280px] outline-[#090808] hover:outline-[#fabe3d] outline outline-none border-none cursor-pointer  bg-active ">
             <CardContent className="flex flex-col items-center text-center  ">
@@ -68,7 +143,7 @@ const testimonials = [
                 <img className="w-full h-full rounded-full object-cover" src={testimonial.image} alt={testimonial.name} />
               </div>
               <p className="text-lg font-semibold">{testimonial.name}</p>
-              <p className="text-gray-600 mt-2 text-primary ">{testimonial.feedback}</p>
+              <p className=" text-center mt-2 text-primary ">{testimonial.feedback}</p>
             </CardContent>
           </Card>
             </div>
@@ -78,8 +153,8 @@ const testimonials = [
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
-      
-       
+     }
+   
     </div>
   );
 };
