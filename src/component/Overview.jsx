@@ -8,8 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import Loading from './Loading'
-import OverviewLoading from './OverviewLoading'
+ import OverviewLoading from './OverviewLoading'
 
 const Overview = () => {
   const [isLoading, setisLoading]=useState(true)
@@ -55,7 +54,7 @@ const Overview = () => {
 useEffect(()=>{
   setTimeout(() => {
       setisLoading(false)
-  }, 1500);
+  },500);
 })
 
 

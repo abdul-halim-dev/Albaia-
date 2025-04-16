@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom"
 
- 
-
 const Postcard = ({cardInfo}) => {
   return (
  <div className="productCard hover:border-active hover:shadow-md hover:-translate-y-[10px] transform duration-200 p-[10px] w-full sm:w-[48%] md:w-[31%] lg:w-[23%] h-[340px] border-[2px] border-secondary shadow rounded-[21px] flex items-start justify-center flex-col  gap-4  ">

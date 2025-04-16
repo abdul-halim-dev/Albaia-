@@ -11,10 +11,8 @@ const Information = () => {
         <div className=" border-b-2 sm:border-b-0 pb-5 sm:pb-0 w-full sm:w-[48%] md:w-[30%] flex flex-col gap-4 items-center justify-center ">
             <h4 className="text-2xl font-primary font-semibold text-active "> HelpFul Links </h4>
             <div className=" w-full flex flex-col items-center justify-center gap-2">
-                <Link className={linkStyle} to={"/service"}> Services  </Link>
-            
-                <Link className={linkStyle} to={"/"}> Terms & Conditions   </Link>
-                <Link className={linkStyle} to={"/"}> Privacy Policy  </Link>
+                <Link className={linkStyle} to={"/conditions"}> Terms & Conditions   </Link>
+                <Link className={linkStyle} to={"/privacyPolicy"}> Privacy Policy  </Link>
             
                 <Link className={linkStyle} to={"/about"}> About Us  </Link>
                 <Link className={linkStyle} to={"/testimonial"}> Testimonials  </Link>

@@ -12,12 +12,15 @@ const Home = () => {
     useEffect(() => {
         const APIfetch = async () => {
             try {
-                const response = await axios.get("http://localhost:5173/src/Data.json");
+                const response = await axios.get(`${import.meta.env.VITE_APP_URL}/src/Data.json`);
                 setTimeout(() => {
                 setallproductStorecard(response.data)
                 setisLoading(false)
-                }, 1500);
+                }, 300);
             } catch (error) {
+                <div>
+                loading {error.message}
+              </div>
                 console.log(error.message)
             }
         }

@@ -23,16 +23,17 @@ const Category = () => {
   useEffect(()=>{
 const urlFetch = async ()=>{
   try {
-    const response = await axios.get(`http://localhost:5173/src/Data.json`);
+    const response = await axios.get("http://localhost:5173/src/Data.json");
     const mainPost = response.data;
     const postfilterData = await mainPost.filter((item) => item.category == catID.cat);
     setTimeout(() => {
     setcatProducts(postfilterData)
    
     setisLoading(false)
-   }, 1000);
+   }, 100);
 
     } catch (error) {
+     
       console.log(error.message)
     }
 }

@@ -12,7 +12,7 @@ import Postcard from './pages/Postcard.jsx';
 import Singlepage from './pages/Singlepage.jsx';
 import Category from './pages/Category.jsx';
 import Notfound from './pages/Notfound.jsx';
-import Service from './pages/Service';
+ 
 import Login from './dashbord/Login';
 import Signup from './dashbord/Signup';
 import Dashbord from './dashbord/Dashbord';
@@ -21,6 +21,8 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Testimonial from './component/Testimonial';
 import About from './pages/About';
+import Conditions from './pages/Conditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 const router = createBrowserRouter([
@@ -62,9 +64,14 @@ const router = createBrowserRouter([
         path:"/category/:cat",
         element:<Category/>
       },
+      
       {
-        path:"/service",
-        element:<Service/>
+        path:"/conditions",
+        element:<Conditions/>
+      },
+      {
+        path:"/privacyPolicy",
+        element:<PrivacyPolicy/>
       },
       {
         path:"*",

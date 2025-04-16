@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom"
 
- 
-
 const Notfound = () => {
   return (
     <div className="w-full h-[70vh] flex items-center justify-center bg-primary">
